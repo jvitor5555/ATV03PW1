@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/7e44530b98.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra | Iphone 16</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+            align-items: center;      /* Centraliza o conteúdo verticalmente */
+            height: 100vh;           /* Garante que o body ocupe toda a altura da viewport */
+            text-align: center;       /* Centraliza o texto no corpo */
+            font-size: 40px;
+        }
+        
+        div {
+            display: flex;
+            flex-direction: column;   /* Alinha os itens na coluna (verticalmente) */
+            justify-content: center;   /* Centraliza o conteúdo verticalmente no div */
+            align-items: center;       /* Centraliza o conteúdo horizontalmente no div */
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 20px;
+            max-width: 60%;             /* Largura fixa do div */
+            height: auto;            /* Altura fixa do div */
+            color: black;
+            animation: giro 3.5s infinite;
+        }
+
+        i {
+            font-size: 60px;
+        }
+
+        h1{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        @keyframes giro {
+            to {
+                transform: rotate(0deg);
+                cursor: pointer;
+                border-radius: 20px;
+            }
+            from {
+                transform: rotate(360deg);
+                cursor: pointer;
+                border: 4px solid black;
+                border-radius: 10px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="compra">
+        <h1>Compra Confirmada Com Sucesso !!!</h1>
+        <i class="fa-solid fa-brazilian-real-sign"></i>
+    </div>
+</body>
+</html>

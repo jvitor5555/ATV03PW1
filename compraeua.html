@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/7e44530b98.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compra Iphone 16</title>
+    <title>Compra | Iphone 16</title>
     <style>
 
         * {
@@ -25,26 +26,32 @@
             flex-direction: column;   /* Alinha os itens na coluna (verticalmente) */
             justify-content: center;   /* Centraliza o conteúdo verticalmente no div */
             align-items: center;       /* Centraliza o conteúdo horizontalmente no div */
-            background-color: aqua;
+            background-color: darkgreen;
             border: 2px solid black;
             border-radius: 20px;
-            width: 500px;             /* Largura fixa do div */
-            height: 500px;            /* Altura fixa do div */
+            max-width: 60%;             /* Largura fixa do div */
+            height: auto;            /* Altura fixa do div */
             color: black;
-            animation: giro 3.5s infinite;
+            animation: ampliar 3.5s infinite;
         }
 
-        @keyframes giro {
+        i {
+            font-size: 60px;
+        }
+
+        h1{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        @keyframes ampliar {
             to {
-                transform: rotate(0deg);
-                cursor: pointer;
-                border-radius: 20px;
+                transform: scale(1);
             }
             from {
-                transform: rotate(360deg);
-                cursor: pointer;
-                border: 4px solid black;
+                transform: scale(1.3);
                 border-radius: 10px;
+                box-shadow: 5px;
             }
         }
         
@@ -52,7 +59,8 @@
 </head>
 <body>
     <div class="compra">
-        Compra Confirmada Com Sucesso !!!
+        <h1>Purchase Confirmed Successfully !!!</h1>
+        <i class="fa-solid fa-dollar-sign"></i>
     </div>
 </body>
 </html>
