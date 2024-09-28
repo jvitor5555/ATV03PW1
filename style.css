@@ -314,10 +314,10 @@ table tr:nth-child(even){        /*even - Aplica aos estilos do elemento par*/
     display: grid;
     padding: 100px;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
     row-gap: 50px;
     column-gap: 200px;
     margin-bottom: 20px;
-    
 }
 
 .preço h1 {
@@ -342,6 +342,14 @@ table tr:nth-child(even){        /*even - Aplica aos estilos do elemento par*/
     cursor: pointer;
 }
 
+.botão {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente se necessário */
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 20px; /* Espaço superior, se necessário */
+    flex-wrap: wrap;
+}
 
 .preço .dollar, .real, .euro{
     background-color: rgb(160, 96, 220);
@@ -364,12 +372,12 @@ table tr:nth-child(even){        /*even - Aplica aos estilos do elemento par*/
     cursor: pointer;           
     font-size: 16px;
     border: 2px solid black;
-    margin-left: 38%;
-    width: 25%;
+    width: auto;
     text-align: center;
     background-color: rgb(70, 243, 70);
     color: black;
     font-size: 30px;
+    height: auto;
 }
 
 /*Seção footer*/
