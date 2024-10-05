@@ -44,6 +44,3 @@ Para uma melhor visualização, especialmente em notebooks menores, recomenda-se
   <img src="github.png" alt="Texto alternativo 2" width="100" height="100">
 </a>
 </div>
-
-
-
