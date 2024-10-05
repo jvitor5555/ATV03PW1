@@ -28,6 +28,9 @@ Distribuir: Compartilhe o software com outros, na sua forma original ou modifica
 Condições
 A única exigência é que a atribuição original seja mantida nas cópias do software.
 
+## Visualização do Projeto
+Para uma melhor visualização, especialmente em notebooks menores, recomenda-se ajustar o zoom para 50%. Isso ajudará na visualização e no ajuste do conteúdo. Em telas maiores, esse ajuste não será necessário.
+
 ## Site hospedado no Vercel e repositorio disponivel no Github
 
 - Clique na imagem para conhecer :)
